@@ -15,7 +15,7 @@
 |group_id|string|null: false|
 ### Association
 - has_many  :users, though: :user_groups
-- has_many :message
+- has_many :messages
 
 ## mwssagesテーブル
 |Column|Type|Options|

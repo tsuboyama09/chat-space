@@ -5,8 +5,8 @@
 |name|string|null: false|
 |emall|string|null: false|
 ### Association
-- has_many :groups, though: :user_group
-- has_many :user_group
+- has_many :groups, though: :users_groups
+- has_many :users_groups
 - has_many :messaages
 
 ## groupテーブル
@@ -14,8 +14,8 @@
 |------|----|-------|
 |name|string|null: false|
 ### Association
-- has_many :users, though: :user_group
-- has_many :user_group
+- has_many :users, though: :users_groups
+- has_many :users_groups
 - has_many :messages
 
 ## mwssagesテーブル
@@ -29,7 +29,7 @@
 - belongs_to :user
 - belongs_to :group
 
-## user_groupテーブル
+## users_groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|

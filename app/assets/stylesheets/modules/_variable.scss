@@ -1,0 +1,9 @@
+$text-color: #ffffff;
+$btn-color: #38aef0;
+$list-color: #434a54;
+$date-color: #999999;
+
+@mixin circle($size) {
+  width: $size;
+  height: $size;
+}

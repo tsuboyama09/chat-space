@@ -48,16 +48,17 @@
   &__group {
     height: calc(100vh - 100px);
     background-color: #2f3e51;
-    color: $text-color;
     font-weight: bold;
 
     &__group-name {
       font-size: 15px;
+      color: $text-color;
       padding: 20px 20px 5px;
     }
     
     &__group-message {
       font-size: 11px;
+      color: $text-color;
       padding: 0 20px 40px;
     }
   }

@@ -28,6 +28,8 @@ ActiveRecord::Schema.define(version: 20200224113614) do
     t.index ["name"], name: "index_groups_on_name", unique: true, using: :btree
   end
 
+ActiveRecord::Schema.define(version: 20200224065345) do
+
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "name",                                null: false
     t.string   "email",                  default: "", null: false

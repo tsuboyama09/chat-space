@@ -18,7 +18,7 @@
 - has_many :users_groups
 - has_many :messages
 
-## mwssagesテーブル
+## messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
 |body|string||

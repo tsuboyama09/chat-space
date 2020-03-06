@@ -82,6 +82,5 @@ Rails.application.configure do
   end
 
   # Do not dump schema after migrations.
-  config.consider_all_requests_local = true
-  # config.active_record.dump_schema_after_migration = false
+  config.active_record.dump_schema_after_migration = false
 end

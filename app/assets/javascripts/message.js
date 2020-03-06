@@ -35,9 +35,8 @@ $(function(){
     setInterval(reloadMessages, 7000);
   }
 
-
   function buildHTML(message) {
-    
+
     if ( message.image ) {
       var html = `<div class="message__user", data-message-id="${message.id}">
                     ${message.user_name}

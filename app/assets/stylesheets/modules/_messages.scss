@@ -86,10 +86,12 @@
     &__box {
       margin-top: 35px;
 
-      h1 {
-        color: #333333;
-        font-size: 20px;
-        margin-bottom: 15px;
+    .group-info__box__group {
+      right: 100px;
+      color: #333333;
+      font-size: 20px;
+      margin-bottom: 15px;
+      font-weight: bold;;
       }
 
       ul {
